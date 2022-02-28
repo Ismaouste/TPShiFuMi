@@ -41,7 +41,7 @@ function Store(val) {
     }
     if ((val == 'rock') && (comMove == 'paper')) {
         console.log(val + " looses against " + comMove + ". You loose!");
-        document.getElementById('result').innerHTML = 'You win with 🪨!';
+        document.getElementById('result').innerHTML = 'You loose with 🪨!';
     }
     if ((val == 'paper') && (comMove == 'rock')) {
         console.log(val + " beats " + comMove + ". You win!");
@@ -49,7 +49,7 @@ function Store(val) {
     }
     if ((val == 'paper') && (comMove == 'scissors')) {
         console.log(val + " looses against " + comMove + ". You loose!");
-        document.getElementById('result').innerHTML = 'You win with 🧻!';
+        document.getElementById('result').innerHTML = 'You loose with 🧻!';
     }
     if ((val == 'scissors') && (comMove == 'rock')) {
         console.log(val + " beats " + comMove + ". You win!");
@@ -57,7 +57,7 @@ function Store(val) {
     }
     if ((val == 'scissors') && (comMove == 'paper')) {
         console.log(val + " looses against " + comMove + ". You loose!");
-        document.getElementById('result').innerHTML = 'You win with ✂️!';
+        document.getElementById('result').innerHTML = 'You loose with ✂️!';
     }
 
 };
