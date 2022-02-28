@@ -52,12 +52,12 @@ function Store(val) {
         document.getElementById('result').innerHTML = 'You loose with 🧻!';
     }
     if ((val == 'scissors') && (comMove == 'rock')) {
-        console.log(val + " beats " + comMove + ". You win!");
-        document.getElementById('result').innerHTML = 'You win with ✂️!';
-    }
-    if ((val == 'scissors') && (comMove == 'paper')) {
         console.log(val + " looses against " + comMove + ". You loose!");
         document.getElementById('result').innerHTML = 'You loose with ✂️!';
+    }
+    if ((val == 'scissors') && (comMove == 'paper')) {
+        console.log(val + " beats " + comMove + ". You win!");
+        document.getElementById('result').innerHTML = 'You win with ✂️!';
     }
 
 };
