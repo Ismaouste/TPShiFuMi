@@ -1,13 +1,29 @@
+body {
+    margin: 5% 2% 0 2%;
+}
+
 .options {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 5% 10% 5% 10%;
 }
 
 .btn {
     font-size: xxx-large;
     margin: 2vh 10vw 2vh 10vw;
     padding: 1vh 2vw 1vh 2vw;
+}
+
+.row {
+    justify-content: center;
+}
+
+#root {
+    font-size: x-large;
+    text-align: center;
+    background: thistle;
 }
