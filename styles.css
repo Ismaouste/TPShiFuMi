@@ -1,0 +1,13 @@
+.options {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: xxx-large;
+    margin: 2vh 10vw 2vh 10vw;
+    padding: 1vh 2vw 1vh 2vw;
+}
